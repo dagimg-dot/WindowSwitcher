@@ -5,18 +5,18 @@ SetBatchLines -1
 DetectHiddenWindows Off
 
 ; === CONFIGURATION ===
-Key := "^!I"
+Key := "#W"
 Width := 500
 MaxItems := 15
-LargeIcons := true
+LargeIcons := false
 CenterText := false
 MoveUp := 120
-Color := "404040"
-SelColor := "44C6F6"
+Color := "1b1c1c"
+SelColor := "43484a"
 Prefix := "."
 AllowDupe := true
 FadeTime := 50
-IgnoreEquals := "^(NVIDIA GeForce Overlay|Program Manager|Settings)$"
+IgnoreEquals := "^(Program Manager|Settings|Task Manager|Start|DimScreen Screen)$"
 ; === END CONFIGURATION ===
 
 global Key, Width, MaxItems, Color, MoveUp, LargeIcons, FontSize, IgnoreEquals, Prefix, AllowDupe, FadeTime
